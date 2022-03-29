@@ -1,9 +1,7 @@
-
+import Clock from "./components/Clock";
 
 function App() {
-  return (
-    <h1>Hello</h1>
-  );
+  return <Clock />;
 }
 
 export default App;

@@ -1,0 +1,20 @@
+@import "./styles/_variables.scss";
+
+@font-face {
+  font-family: "Digital";
+  src: url("./fonts/DS-DIGII.TTF");
+}
+
+body {
+  background: $background;
+  color: $textColor;
+  margin: 0;
+  font-family: "Digital", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
