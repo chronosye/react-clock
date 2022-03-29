@@ -15,8 +15,13 @@ const Clock = () => {
   }, []);
 
   return (
-    <div className={classes.clock}>
-      <p>{time}</p>
+    <div>
+      <div className={classes.clock}>
+        <p>{time}</p>
+      </div>
+      <div className={classes.clockBackground}>
+        <p>88:88:88</p>
+      </div>
     </div>
   );
 };
